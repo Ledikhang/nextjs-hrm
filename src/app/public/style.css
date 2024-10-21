@@ -1,0 +1,36 @@
+/* @media only screen and (max-width: 46.1875em) {
+} */
+        /* Tablet */
+/* @media only screen and (max-width: 46.25em) and (max-width: 63.9375em) {
+    
+} */
+
+.auth-form-container {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.auth-form {
+    background-color: #0337a6; /* Màu nền */
+    border: 1px solid #d9d9d9; /* Màu viền */
+    border-radius: 8px; /* Bo góc */
+    max-width: 400px; /* Chiều rộng tối đa */
+    width: 100%; /* Chiều rộng 100% trong không gian nhỏ hơn */
+    margin-top: 10%;
+    padding: 20px;
+}
+.home{
+    min-width: auto;
+    width: 100%;
+    overflow-x: auto; /* Đảm bảo bảng cuộn ngang khi không đủ không gian */
+    padding-top: 2%;
+}
+.main-chilren{
+    padding-top: 2%;
+    padding-right: 4%;
+}
+.menu-search-buton{
+    display: flex; /* Sử dụng Flexbox */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    gap: 10px; 
+}

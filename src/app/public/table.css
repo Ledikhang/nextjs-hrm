@@ -1,0 +1,19 @@
+.ant-table-row .ant-table-row-level-0,
+.custom-row{
+    cursor: pointer;
+    padding-top: 2;
+}
+.ant-table-row{
+    background-color: rgb(255, 255, 255);
+}
+.ant-table-row:hover td{
+    background-color: rgb(138, 143, 138) !important;
+}
+.ant-table-cell {
+    overflow: hidden;          /* Ẩn văn bản tràn */
+    text-overflow: ellipsis;  /* Thêm dấu "..." */
+    white-space: nowrap;       /* Ngăn văn bản xuống dòng */
+    max-width: 300px;          /* Đặt chiều rộng tối đa cho ô */
+}
+
+

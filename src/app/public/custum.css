@@ -1,0 +1,10 @@
+.custom-input {
+    border-radius: 8px; /* Bo tròn góc */
+    padding: 10px; /* Thêm padding */
+    font-size: 16px; /* Đổi kích thước chữ */
+  }
+  
+.custom-input::placeholder {
+    color: #787877; /* Đổi màu chữ của placeholder */
+    opacity: 1; /* Đảm bảo độ mờ không thay đổi (mặc định là 0.5) */
+  }
