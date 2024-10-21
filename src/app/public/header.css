@@ -1,0 +1,11 @@
+.custom-menu .ant-menu-item,
+.custom-menu .ant-menu-submenu-title {
+    color: rgb(251, 251, 251) !important; 
+}
+
+.icon-user{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    padding-right: 4%;
+}
